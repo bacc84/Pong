@@ -1,0 +1,77 @@
+
+html,body{
+  height:100%;
+  width:100%;
+  background:#0d0d0d;
+}
+#ui{
+  text-align:center;
+}
+
+button{
+  border:none;
+  outline:none;
+  background:#10A0FF;
+  padding:12px;
+  color:white;
+  border-radius:5px;
+  box-shadow:2px 2px 8px rgba(0,0,0,0.6),
+  5px 5px 8px rgba(255,255,255,0.6) inset,
+  -5px -5px 8px rgba(0,0,0,0.6) inset;
+  vertical-align: top;
+  margin:12px;
+}
+
+#score{
+  font-size:50px;
+  font-family:monospace;
+  font-weight:bold;
+  color:#505050;
+  text-shadow:1px 1px  2px rgba(255,255,255,0.6) ,
+  -1px -1px  black;
+}
+
+#cours{
+  position:relative;
+  cursor: none;
+  margin:40px auto;
+  border:15px solid black;
+  width:900px;
+  height:600px;
+  background:url('images/tennis.jpg') no-repeat;
+  background-size:cover;
+}
+
+#balle{
+  position:absolute;
+  left:0;
+  top:0;
+
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+
+  box-shadow:2px 2px 8px rgba(0,0,0,0.6),
+  10px 10px 20px rgba(255,255,255,0.6) inset,
+  -10px -10px 50px rgba(0,0,0,0.6) inset;
+
+  background-image:url('images/balle.png');
+  background-attachment: fixed;
+  background-repeat : repeat;
+}
+
+
+#raquette{
+  position:absolute;
+  width:100px;
+  height:15px;
+  background:black;
+  border-radius:5px;
+
+  bottom:5px;
+  left:120px;
+
+  box-shadow:2px 2px 8px rgba(0,0,0,0.6),
+  10px 10px 20px rgba(255,255,255,0.6) inset,
+  -10px -10px 50px rgba(0,0,0,0.6) inset;
+}
